@@ -1,0 +1,156 @@
+<web-app>
+
+	<display-name>
+		School Bus Tracking
+	</display-name>
+	
+	<!-- Admin Registration Info -->
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.dev.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>AdminProfile</servlet-name>
+		<servlet-class>com.dev.admin.AdminProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminProfile</servlet-name>
+		<url-pattern>/AdminProfile</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>
+		<servlet-name>ChangePassword</servlet-name>
+		<servlet-class>com.dev.admin.ChangePassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/ChangePassword</url-pattern>
+	</servlet-mapping>		
+	
+	
+	<servlet>
+		<servlet-name>StudentList</servlet-name>
+		<servlet-class>com.dev.admin.StudentList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StudentList</servlet-name>
+		<url-pattern>/StudentList</url-pattern>
+	</servlet-mapping>	
+	
+
+	<servlet>
+		<servlet-name>RouteList</servlet-name>
+		<servlet-class>com.dev.admin.RouteList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RouteList</servlet-name>
+		<url-pattern>/RouteList</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>LandMarkList</servlet-name>
+		<servlet-class>com.dev.admin.LandMarkList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LandMarkList</servlet-name>
+		<url-pattern>/LandMarkList</url-pattern>
+	</servlet-mapping>
+	
+<!-- All About Android Registrations -->
+
+<!-- All About Bus Staff Registrations(Starts) -->
+
+	<servlet>
+		<servlet-name>BusStaffLogin</servlet-name>
+		<servlet-class>com.dev.android.BusStaffLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BusStaffLogin</servlet-name>
+		<url-pattern>/BusStaffLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangeStaffPassword</servlet-name>
+		<servlet-class>com.dev.android.ChangeStaffPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeStaffPassword</servlet-name>
+		<url-pattern>/ChangeStaffPassword</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UpdateGPSInfo</servlet-name>
+		<servlet-class>com.dev.android.UpdateGPSInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateGPSInfo</servlet-name>
+		<url-pattern>/UpdateGPSInfo</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>
+		<servlet-name>UpdateBusStatus</servlet-name>
+		<servlet-class>com.dev.android.UpdateBusStatus</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateBusStatus</servlet-name>
+		<url-pattern>/UpdateBusStatus</url-pattern>
+	</servlet-mapping>
+	
+<!-- All About Bus Staff Registrations(Ends) -->
+
+<!-- All About Student Registrations(Starts) -->
+	
+	<servlet>
+		<servlet-name>StudentLogin</servlet-name>
+		<servlet-class>com.dev.android.StudentLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StudentLogin</servlet-name>
+		<url-pattern>/StudentLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangeStudentPassword</servlet-name>
+		<servlet-class>com.dev.android.ChangeStudentPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeStudentPassword</servlet-name>
+		<url-pattern>/ChangeStudentPassword</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UpdateStudentGPSInfo</servlet-name>
+		<servlet-class>com.dev.android.UpdateStudentGPSInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateStudentGPSInfo</servlet-name>
+		<url-pattern>/UpdateStudentGPSInfo</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>
+		<servlet-name>GetBusCurrentLocation</servlet-name>
+		<servlet-class>com.dev.android.GetBusCurrentLocation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetBusCurrentLocation</servlet-name>
+		<url-pattern>/GetBusCurrentLocation</url-pattern>
+	</servlet-mapping>																			
+
+<!-- All About Student Registrations(Ends) -->	
+
+</web-app>	
